@@ -8,3 +8,9 @@ Docente: Lizandro Israel Reyes Carrillo.
 ## Documento
 
 **[Fase 1: avances técnicos (PDF)](entregables/Fase1_UTM-Desk-NoSQL-Cloud.pdf)** — selección y justificación de tecnologías, requisitos funcionales y no funcionales, y el modelo de datos JSON/BSON con un ejemplo por categoría y el `$jsonSchema` de la base de datos en MongoDB Atlas.
+
+## Diagrama de la base de datos
+
+![Diagrama de la base de datos](diagramas/diagrama-base-de-datos.png)
+
+Tres colecciones en MongoDB Atlas (`usuarios`, `incidencias_campus` y `contadores`), los índices de la colección principal y el bucket privado de Supabase donde se guardan las evidencias.
